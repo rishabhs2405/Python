@@ -25,4 +25,4 @@ def reversing_array(arr,k):
 arr = list(map(int,input("Enter Array elements seprated by spaces: ").split()))
 k = int(input("Enter the value for which you want array rotated: "))
 reversing_array(arr,k)
-print("Rotated Arrau: ",arr)
+print("Rotated Array: ",arr)

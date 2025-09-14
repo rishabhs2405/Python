@@ -10,10 +10,12 @@ def product_array(arr):
     result = [1]*n
     prefix = 1
     for i in range(n):
-        result[i] = prefix
+        # assigning prefix product to result[i]
+        result[i] = prefix 
         prefix *= arr[i]
     suffix = 1
     for i in range(n-1,-1,-1):
+        # Multiplying with Suffix product
         result[i]*= suffix
         suffix *= arr[i]
     
